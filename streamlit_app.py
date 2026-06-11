@@ -103,9 +103,9 @@ custom_css = """
     }
 
     .main-header p {
-        color: #d4af37;
+        color: #FBFCF6;
         font-family: 'Great Vibes', cursive;
-        font-size: 1.8rem;
+        font-size: 2.1rem;
         margin-top: 0.7rem;
         letter-spacing: 1.8px;
     }
@@ -122,13 +122,13 @@ custom_css = """
 
     .stButton>button {
         background: linear-gradient(45deg, #b8860b, #ffd700, #daa520);
-        color: #1a0033;
+        color: #FBFCF6;
         border: 2px solid #b8860b;
         border-radius: 16px;
         padding: 1rem 2.4rem;
         font-family: 'Cinzel Decorative', cursive;
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.9rem;
         transition: all 0.4s ease;
         box-shadow: 0 8px 25px rgba(255, 215, 0, 0.45);
         text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
@@ -147,7 +147,7 @@ custom_css = """
         background: rgba(40, 20, 80, 0.75);
         border: 2px solid #b8860b;
         border-radius: 14px;
-        color: #ffd700;
+        color: #800080;
         padding: 1rem;
         font-size: 1.1rem;
     }
@@ -192,7 +192,7 @@ custom_css = """
     }
 
     [data-testid="stMetricValue"] {
-        color: #ffd700;
+        color: #d4af37;
         font-size: 2.6rem;
         font-weight: 700;
         text-shadow: 0 0 18px rgba(255, 215, 0, 0.7);
@@ -212,7 +212,7 @@ custom_css = """
     }
 
     .console-header {
-        color: #ffd700;
+        color: #d4af37;
         font-family: 'Cinzel Decorative', cursive;
         text-shadow: 0 0 18px #ffd700bb;
         margin-bottom: 18px;
