@@ -16,10 +16,31 @@ from selenium.webdriver.chrome.options import Options
 import database as db
 import requests
 
+import base64
+def set_background(image_file):
+    with open(image_file, "rb") as f:
+        encoded = base64.b64encode(f.read()).decode()
+
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("data:image/png;base64,{encoded}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 st.set_page_config(
+    set_background("1000000802.png")
     page_title="E2E BY RAJVEER SINGH",
     page_icon="",
     layout="wide",
+set_background("1000000802.png")
     initial_sidebar_state="expanded"
 )
 
