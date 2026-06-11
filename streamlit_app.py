@@ -36,32 +36,23 @@ def set_background(image_file):
         unsafe_allow_html=True
     )
 st.set_page_config(
-    set_background("1000000802.png")
     page_title="E2E BY RAJVEER SINGH",
-    page_icon="",
+    page_icon="",
     layout="wide",
-set_background("1000000802.png")
     initial_sidebar_state="expanded"
 )
-
+set_background("1000000802.png")
 # 
 #          RAJVEER / SINGH THEME CSS (Updated)
 # 
 custom_css = """
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
-
-    * {
+    @import url('https://fonts
         font-family: 'Playfair Display', serif;
-    }
-
+   
     .stApp {
-        background-image: linear-gradient(rgba(20, 0, 40, 0.88), rgba(40, 0, 80, 0.78)),
-                          url('https://i.ibb.co/0mQfX0b/dark-royal-purple-velvet-texture.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
+        background: transparent;
+}
 
     .main .block-container {
         background: rgba(30, 10, 60, 0.68);
