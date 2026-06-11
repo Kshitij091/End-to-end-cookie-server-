@@ -37,7 +37,6 @@ def set_background(image_file):
     )
 st.set_page_config(
     page_title="E2E BY RAJVEER SINGH",
-    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
