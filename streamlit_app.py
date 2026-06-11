@@ -52,6 +52,9 @@ custom_css = """
    
     .stApp {
         background: transparent;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
 }
 
     .main .block-container {
