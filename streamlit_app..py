@@ -779,4 +779,4 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-st.markdown('<div class="footer">Made with by Rajveer singh | © 2025 </div>',unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with by Rajveer singh | © 2025 </div>'unsafe_allow_html=True)
